@@ -1,0 +1,63 @@
+.header {
+    max-width: 320px;
+    width: 100%;
+    z-index: 4;
+    border-radius: 6px;
+    margin-top: 12px;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 0.2rem 1rem;
+    transition: background-color 2s ease-in-out;
+    border: 2px solid hwb(0 0% 100% / 0.034);
+}
+.header:hover{
+    background-color: #99969b4d;
+    padding: 0.3rem 1.1rem;
+    transition: background-color 2s ease-in-out;
+    
+}
+
+.headerBg {
+    transition: background-color 1s ease-in-out;
+    backdrop-filter: blur(100px);
+    
+}
+
+.nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.navbar-list {
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.switchComponent {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.links {
+    font-weight: 600;
+    font-size: 1em;
+    font-family: "Titillium Web", sans-serif;
+    transition: all 0.3s ease-in-out;
+
+}
+.links:hover{
+    color: var(--letterGreen);
+}
+
+
+.icon{
+    margin-left: 6px;
+}
+

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    min-width: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --dark: #24243a;
+    --light: linear-gradient(90deg, rgba(255, 203, 182, 1) 0%, rgba(185, 255, 245, 1) 100%);
+    --mi-variable-gradient: linear-gradient(90deg, rgba(4, 8, 32, 1) 0%, rgba(3, 2, 4, 1) 100%);
+    /* bg-buttom */
+    --bg: #050271;
+    --letterColorLight: #f5e8e8;
+    --letterGreen: #b6ffdd;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'onest', sans-serif;
+    color: var(--letterColorLight);
+   
+}
+.background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1; 
+}
+.backgroundTwo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #0a0a0aa2;
+    backdrop-filter: blur(3rem);
+    z-index: 2; 
+    
+}
+
+
+.dark::before,
+.light::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;  
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+ 
+}
+
+.dark {
+    color: var(--letterColorLight);
+    transition: background-color 0.2s, color 0.2s;
+    background-image: url("https://i.pinimg.com/236x/4e/11/d5/4e11d5516b356c03baf71dfa6cb7aa5f.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.light {
+    transition: background-color 0.2s, color 0.2s;
+    background-image: url("https://haiver.dev/background.webp");
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: var(--letterColorLight);
+
+} 
+
+
+h1, h2, h3, h4 {
+    overflow-wrap: break-word;
+    transition: color 0.2s;
+    color: inherit;
+}
+
+p {
+    overflow-wrap: break-word;
+    transition: color 0.2s;
+}
+
+a {
+    color: inherit;
+    transition: color 0.1s;
+    font-weight: 400;
+}
+
+@keyframes rotateBackground {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

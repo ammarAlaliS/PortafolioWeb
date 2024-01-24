@@ -1,0 +1,278 @@
+
+.main {
+    max-width: 740px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin: auto;
+    padding: 0rem 1rem;
+
+}
+
+
+.section {
+    height: 50vh;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: 3;
+
+
+}
+
+.titleContainer {
+    height:auto;
+    max-width: 660px;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    /* Estilos para h1 */
+    display: flex;
+    align-items: baseline;
+    font-size: 3.75rem;
+    line-height: 0.7;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    z-index: 1;
+
+
+}
+
+.hireButton {
+    color: rgba(41, 190, 96, 0.877) !important;
+    position: relative;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.6em;
+    font-weight: 600;
+    color: var(--letterColorLight);
+    border: 1px solid rgba(41, 190, 96, 0.493);
+    background-color: #a1ddb02f;
+    transition: all 0.3s ease-in-out;
+    align-self: flex-end; 
+}
+
+.hireButton::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 6px;
+    background-color: #a1ddb02f;
+    backdrop-filter: blur(10px);
+    z-index: -1; 
+}
+
+.hireButton:hover {
+    transform: scale(1.02);
+}
+
+
+.p{
+    max-width: 670px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+
+   
+}
+
+.spanOne{
+
+    color: #ffffff; 
+     
+}
+.spanTwo{
+    color: #FFE382;
+    opacity: 0.9; 
+    
+}
+.SpanThee{
+    opacity: 0.7; 
+}
+.spanFour{
+    color: var(--letterGreen);
+}
+
+
+
+.ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: baseline;
+    gap: 12px;
+    margin-top: 12px;
+    font-size: 0.7em;
+    color: var(--light);
+}
+
+.li {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.linkLetter {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--letterColorLight);
+    margin: 0;
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px solid hsla(291, 54%, 63%, 0.13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+}
+.linkLetter:hover{
+    background-color: #99969b4d;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.01);
+    border: 1px solid hsla(0, 0%, 100%, 0.062);
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    color: #31d5de;
+}
+
+@media screen and (max-width: 560px) {
+    .h1 {
+        font-size: 1.4em;
+        font-weight: 900;
+
+    }
+
+    .p {
+        font-size: 0.7em;
+        font-weight: 500;
+
+    }
+
+    .linkLetter {
+        font-size: 0.6em;
+        font-weight: 700;
+        color: var(--letterColorLight);
+
+
+    }
+
+    .hireButton {
+        background-color: rgba(53, 13, 146, 0.979);
+        /* Fondo con transparencia */
+        backdrop-filter: blur(10px);
+        padding: 3px 12px;
+        border-radius: 99px;
+        font-size: 0.5em;
+
+    }
+
+    .ul {
+        gap: 8px;
+    }
+
+
+}
+
+@media screen and (max-width: 520px) {
+    .h1 {
+        font-size: 1.2em;
+        font-weight: 900;
+
+    }
+
+    .p {
+        font-size: 0.6em;
+        font-weight: 500;
+
+    }
+
+    .linkLetter {
+        font-size: 0.6em;
+        font-weight: 700;
+        color: var(--letterColorLight);
+
+
+    }
+
+    .hireButton {
+        background-color: rgba(53, 13, 146, 0.979);
+        /* Fondo con transparencia */
+        backdrop-filter: blur(10px);
+        padding: 3px 12px;
+        border-radius: 99px;
+        font-size: 0.5em;
+
+    }
+
+    .ul {
+        gap: 8px;
+    }
+
+
+}
+
+@media screen and (max-width: 420px) {
+    .h1 {
+        font-size: 1em;
+        font-weight: 900;
+
+    }
+
+    .p {
+        font-size: 0.5em;
+        font-weight: 500;
+
+    }
+
+    .linkLetter {
+        font-size: 0.6em;
+        font-weight: 700;
+        color: var(--letterColorLight);
+
+
+    }
+
+    .hireButton {
+        background-color: rgba(53, 13, 146, 0.979);
+        /* Fondo con transparencia */
+        backdrop-filter: blur(10px);
+        padding: 3px 12px;
+        border-radius: 99px;
+        font-size: 0.5em;
+
+    }
+
+    .ul {
+        gap: 5px;
+    }
+
+
+}
