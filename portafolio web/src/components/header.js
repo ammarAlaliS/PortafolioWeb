@@ -1,5 +1,5 @@
-import { HEADER_DATA } from "./data/Constantes.js";
-import _switch from "./switch.js";
+import { HEADER_DATA } from "../data/Constantes.js";
+import _switch from "./switch.js"
 
 export default function Header() {
     const header = document.getElementById('headerId');

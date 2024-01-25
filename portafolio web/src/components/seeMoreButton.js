@@ -1,4 +1,4 @@
-import Arrow from "./icons/arrow.js";
+import Arrow from "../icons/arrow.js";
 const WorkContainer = document.getElementById("WorkContainer")
 export default function SeeMore() {
     if (WorkContainer) {

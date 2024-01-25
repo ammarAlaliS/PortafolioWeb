@@ -33,13 +33,13 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr; /* Ajustar según sea necesario */
+    grid-template-rows: 1fr;
     border-radius: 12px;
-    align-items: stretch; /* Igualar la altura de los elementos secundarios */
+    align-items: stretch; 
     place-content: center;
     gap: 1rem;
     z-index: 0;
-    grid-auto-flow: row dense; /* Agregar esta línea para un empaquetado denso */
+    grid-auto-flow: row dense; 
 }
 
 
@@ -242,9 +242,7 @@
     backdrop-filter: blur(1px);
     z-index: 0;
 }
-.buttonDiv{
-    
-}
+
 .SeeMore{
     display: flex;
     flex-direction: row-reverse;

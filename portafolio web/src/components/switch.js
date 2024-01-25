@@ -1,5 +1,5 @@
-import Moon from "./icons/moon.js";
-import Sun from "./icons/sun.js";
+import Moon from "../icons/moon.js";
+import Sun from "../icons/sun.js";
 
 export default function _switch() {
     const switchComponent = document.querySelector(".switchComponent");
@@ -20,6 +20,6 @@ export default function _switch() {
             }
         });
     } else {
-        console.error("Elemento con la clase '.switchComponent' no encontrado.");
+       
     }
 }

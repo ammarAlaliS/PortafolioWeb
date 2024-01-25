@@ -1,8 +1,8 @@
-import { MAIN_INFO } from "./data/Constantes.js";
-import Github from "./icons/Github.js";
-import LinkedIn from "./icons/LinkedIn.js";
-import Instagram from "./icons/Instagram.js";
-import Location from "./icons/Localation.js";
+import { MAIN_INFO } from "../data/Constantes.js";
+import Github from "../icons/Github.js";
+import LinkedIn from "../icons/LinkedIn.js";
+import Instagram from "../icons/Instagram.js";
+import Location from "../icons/Localation.js";
 
 
 export default function Main() {

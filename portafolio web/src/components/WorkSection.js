@@ -1,7 +1,7 @@
-import CardClass from "./class/Card.js";
-import Arrow from "./icons/arrow.js";
+import CardClass from "../class/Card.js";
+import Arrow from "../icons/arrow.js";
 import CardComponent from "./CardComponent.js";
-import CardComponentTwo from "./CardComponentTwo.js";
+
 
 export default function Works() {
   const main = document.querySelector("main");
@@ -55,7 +55,7 @@ export default function Works() {
     // Append buttonDiv to mainDiv
     SeeMore(mainDiv);
   } else {
-    console.error("El elemento con ID 'miId' no se encontró en el DOM.");
+    
   }
 }
 

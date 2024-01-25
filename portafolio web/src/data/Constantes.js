@@ -25,7 +25,7 @@ export const WORKS = [
         seeMore: "See live",
         state: "Finished",
         description: "Introducing our innovative programming learning platform, a dynamic space where aspiring coders can embark on a transformative journey.",
-        img: "./public/landingPage.png",
+        img: "../../public/landingPage.png",
     },
     {
         title: "Dashbord Page",
@@ -33,7 +33,7 @@ export const WORKS = [
         seeMore: "See live",
         state: "Progress",
         description: "Un dashboard es una interfaz visual que concentra información clave en un solo vistazo, proporcionando una visión integral del rendimiento, métricas y datos relevantes para la toma de decisiones.",
-        img: "./public/dashbord.png",
+        img: "../../public/dashbord.png",
     },
     {
         title: "Snake Game",
@@ -41,7 +41,7 @@ export const WORKS = [
         seeMore: "See live",
         state: "Unfinish",
         description: "Snake Game is a classic where players control a growing snake, avoiding collisions with walls and its own body. Simple and addictive, it has been a favorite since the 1970s.",
-        img: "./public/snake.png",
+        img: "../../public/snake.png",
     },
     
   
