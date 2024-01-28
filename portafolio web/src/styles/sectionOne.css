@@ -45,6 +45,7 @@ h1 {
     margin: 0;
     font-weight: 900;
     z-index: 1;
+    color: inherit;
 
 
 }
@@ -87,13 +88,14 @@ h1 {
     font-weight: 500;
     padding: 0;
     margin: 0;
+    color: inherit;
 
    
 }
 
 .spanOne{
 
-    color: #ffffff; 
+   color: inherit;
      
 }
 .spanTwo{

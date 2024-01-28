@@ -26,15 +26,20 @@ export default function CardComponent(card) {
     return `
       <div class="articleInformationTwo">
         <div class="divImg">
-          <img src="${card.img}" alt="">
+          <img src="${card.img}" alt="${card.title}">
         </div>
         <div class="divCardInfo">
           <h2 class="titleTwo">${card.title}</h2>
           <ul class="boxLinksTwo">
             <h3 class="subTitleTwo">${card.subTitle}</h3>
-            <li class="box"><a href="" class="${linkStyle}">${linkText}</a></li>
+            <li class="${linkStyle}">${linkText}</li>
           </ul>
           <p class="descriptionTwo">${card.description}</p>
+          <ul class="boxLinksTwo">
+                
+          <li class="link_one"><a href="">Live</a></li>
+          <li class="link_one"><a href="">Sources</a></li>
+      </ul>
         </div>
       </div>
     `;

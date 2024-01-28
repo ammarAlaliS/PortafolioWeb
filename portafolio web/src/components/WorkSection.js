@@ -1,6 +1,7 @@
 import CardClass from "../class/Card.js";
 import Arrow from "../icons/arrow.js";
 import CardComponent from "./CardComponent.js";
+import CardComponentTwo from "./CardComponentTwo.js";
 
 
 export default function Works() {
@@ -41,11 +42,6 @@ export default function Works() {
 
       // Append the content of the cardComponent to the article
       article.innerHTML = cardComponent;
-
-      if (index % 2 !== 0) {
-        article.classList.add("double");
-      }
-
       div.appendChild(article);
     });
 
@@ -83,8 +79,9 @@ function SeeMore(WorkContainer) {
 
 function clasificarParesImpares(currentIndex, card) {
   if (currentIndex % 2 !== 0) {
-    return CardComponent(card);
+    return CardComponentTwo(card);
   } else {
+ 
     return CardComponent(card);
   }
 }
